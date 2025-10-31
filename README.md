@@ -7,48 +7,80 @@ The dataset includes details such as flight dates, origin and destination airpor
 **🎯 Objectives**:
 
 To visualize flight traffic patterns and distribution across global airports.
+
 To analyze on-time performance and delay trends across months.
+
 To identify top-performing and underperforming routes or airports.
+
 To explore relationships between delay durations, distances, and flight timings.
 
 **📊 Dashboard Structure**:
 
 Page 1 – Overview Dashboard
 Contains high-level KPIs and filters for exploration.
+
 KPIs:
 ✈️ Total Flights – 6M+ flights analyzed.
+
 ⏱️ Average Arrival Delay – 4.33 minutes.
+
 ✅ On-Time Percentage – 82%.
+
 🛫 Total Distance Covered – 63 million+ miles.
+
 Filters:
 Month
+
 Operating Carrier (OP_CARRIER)
+
 On-Time Status (On Time / Delayed)
+
 Visuals:
+
 World Map: Displays total flights by origin airport (highlighting traffic hotspots).
+
 KPI Cards: Present summary metrics for quick insights.
+
 Slicers: Allow filtering by time, airline, and delay status.
+
 Page 2 – Performance Analysis Dashboard
+
 Focuses on delay patterns and performance metrics.
+
 Visuals:
+
 📈 Avg Arrival Delay by Month
+
 Shows seasonal delay trends.
+
 Delays peak during June–August (likely due to summer congestion and weather).
+
 🏙️ Count of On-Time Flights by Destination
+
 Identifies busiest and most punctual airports.
+
 ATL, ORD, and DEN have the highest flight counts.
+
 ⏰ Average Arrival Delay by Departure Hour
+
 Reveals time-based performance trends.
+
 Late-night and early-morning flights show less delay, while afternoon flights tend to be more delayed.
+
 📉 Distance vs Arrival Delay (Scatter Plot)
+
 Shows that longer-distance flights generally have more stable arrival times, while short and medium-distance routes experience more delay variation.
 
 **💡 Key Insights**:
 
 Busiest Airports: ATL, ORD, and DEN dominate in flight volume and on-time performance.
+
 Seasonal Trend: Delay rates spike mid-year (June–August), suggesting congestion or weather disruptions.
+
 Time-of-Day Effect: Midday departures tend to have higher delays compared to morning or night.
+
 Carrier Variation: Some airlines consistently perform better, indicating more efficient scheduling and operations.
+
 Distance Correlation: Delay doesn’t always increase with distance — shorter flights are more prone to operational bottlenecks.
 
 **🧩 Tools & Techniques**:
