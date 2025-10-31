@@ -83,20 +83,6 @@ Carrier Variation: Some airlines consistently perform better, indicating more ef
 
 Distance Correlation: Delay doesn’t always increase with distance — shorter flights are more prone to operational bottlenecks.
 
-**🧩 Tools & Techniques**:
-
-Tool Used: Microsoft Power BI Desktop
-Data Source: 2017 Flight Performance Dataset
-Transformations: Data cleaning, calculated measures (Avg Arrival Delay, On-Time %, Total Flights)
-DAX Formulas Used:
-Total Flights = COUNTROWS('2017')
-Avg Arrival Delay = AVERAGE('2017'[ARR_DELAY])
-OnTime % = 
-DIVIDE(
-    CALCULATE(COUNTROWS('2017'), '2017'[On-Time Status] = "On Time"),
-    COUNTROWS('2017')
-)
-
 **🏁 Conclusion**:
 
 This dashboard helps the Airport Authority to:
