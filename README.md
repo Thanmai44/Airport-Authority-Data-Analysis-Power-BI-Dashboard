@@ -1,16 +1,18 @@
 # Airport-Authority-Data-Analysis-Power-BI-Dashboard
-**📘 Overview**
+**📘 Overview**:
 
 This Power BI dashboard provides a comprehensive analysis of flight operations data for the year 2017. The goal is to help the Airport Authority monitor key flight performance metrics, identify operational inefficiencies, and gain actionable insights into flight delays, carrier performance, and traffic distribution.
 The dataset includes details such as flight dates, origin and destination airports, flight times, delays, distances, and operational carriers.
 
-**🎯 Objectives**
+**🎯 Objectives**:
+
 To visualize flight traffic patterns and distribution across global airports.
 To analyze on-time performance and delay trends across months.
 To identify top-performing and underperforming routes or airports.
 To explore relationships between delay durations, distances, and flight timings.
 
-**📊 Dashboard Structure**
+**📊 Dashboard Structure**:
+
 Page 1 – Overview Dashboard
 Contains high-level KPIs and filters for exploration.
 KPIs:
@@ -41,14 +43,16 @@ Late-night and early-morning flights show less delay, while afternoon flights te
 📉 Distance vs Arrival Delay (Scatter Plot)
 Shows that longer-distance flights generally have more stable arrival times, while short and medium-distance routes experience more delay variation.
 
-**💡 Key Insights**
+**💡 Key Insights**:
+
 Busiest Airports: ATL, ORD, and DEN dominate in flight volume and on-time performance.
 Seasonal Trend: Delay rates spike mid-year (June–August), suggesting congestion or weather disruptions.
 Time-of-Day Effect: Midday departures tend to have higher delays compared to morning or night.
 Carrier Variation: Some airlines consistently perform better, indicating more efficient scheduling and operations.
 Distance Correlation: Delay doesn’t always increase with distance — shorter flights are more prone to operational bottlenecks.
 
-**🧩 Tools & Techniques**
+**🧩 Tools & Techniques**:
+
 Tool Used: Microsoft Power BI Desktop
 Data Source: 2017 Flight Performance Dataset
 Transformations: Data cleaning, calculated measures (Avg Arrival Delay, On-Time %, Total Flights)
@@ -61,7 +65,8 @@ DIVIDE(
     COUNTROWS('2017')
 )
 
-**🏁 Conclusion**
+**🏁 Conclusion**:
+
 This dashboard helps the Airport Authority to:
 Quickly identify patterns in flight punctuality and delay causes,
 Improve air traffic scheduling,
